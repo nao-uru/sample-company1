@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  color: #686868;
+}
+
+header {
+  text-align: center;
+}
+
+.title-logo {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.title-img {
+  max-width: 100%;
+  margin: 0 0 30px 0;
+  border-radius: 10px;
+}
+
+.h-nav {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.h-nav a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #686868;
+  margin: 5px 0;
+}
+
+.h-nav a:hover {
+  border-bottom: 3px solid #D08048;
+}
+
+.m-title,.m-title-sub {
+  height: 24px;
+  padding: 15px;
+  margin: 0 0 20px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.m-title {
+  background-color: #D08048;
+  color: #fff;
+}
+
+.m-title-sub {
+  border: 1px solid;
+}
+
+.info {
+  width: 95%;
+  margin: 0 auto;
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.info dt {
+  float: left;
+  font-weight: bold;
+}
+
+.info dd {
+  padding:5px 0  5px 120px;
+}
+
+.back-gray {
+  background-color:#E5E5E5;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.p-link ,.table2 a {
+  color: #686868;
+}
+
+.p-link:hover,.color-orange ,.footer-link:hover,.table2 a:hover{
+  color: #D08048;
+  cursor: pointer;
+}
+
+footer {
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* ABOUTのCSS */
+caption {
+  padding: 10px;
+  border: 1px solid;
+  border-bottom: none;
+  font-weight: bold;
+  text-align: left;
+  background-color: #E5E5E5;
+}
+
+.table1 ,.table2{
+  width: 100%;
+  margin: 0 0 20px 0;
+  border-collapse: collapse
+}
+
+.table1 th,.table2 th{
+  text-align: center;
+  padding: 10px;
+}
+
+.table1 td,.table2 td {
+  padding: 10px;
+}
+
+.table1 th ,.table2 th{
+  width: 30%;
+}
+
+/* GALLERY&LINKのCSS */
+.gallery-section {
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid #686868;
+}
+
+.g-left {
+  width: 20%;
+}
+
+.g-left img {
+  width: 100%;
+  height: auto;
+}
+
+.g-right {
+  width: 80%;
+  padding: 0 0 0 10px;
+}
+
+.g-right p {
+  margin: 0;
+  line-height: 2;
+}
+
+.table2 th img {
+  width: 100%;
+}
